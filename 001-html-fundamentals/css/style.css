@@ -1,0 +1,117 @@
+.site-header{
+  background-color: #fff;
+}
+.sitenav-link{
+  line-height: 21px;
+  font-weight: 500px;
+ text-transform: uppercase;
+ text-decoration: none;
+}
+.sitenav-head{
+  /* display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center; */
+}
+.navigator{
+  display: flex;
+
+}
+.main-link{
+
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #de2e54;
+  color: #fff;
+  width: 141px;
+}
+
+.hero{
+  background-color: #0eb4c1;
+  color: #fff;
+}
+
+.hero-content{
+  width: 500px;
+  color: #fff;
+}
+
+.hero-img{
+  width: 423px;
+  height: 504px;
+}
+
+.hero-heading{
+  width: 500px;
+  line-height: 43px;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.hero-text{
+font-size: 18px;
+line-height: 1.5;
+width: 440px;
+}
+.service-heading{
+  font-size: 36px;
+  line-height: 1.2;
+  width: 133px;
+}
+
+.service-content{
+font-size: 24px;
+line-height: 1.2;
+}
+
+.service-text{
+width: 600px;
+font-size: 16px;
+line-height: 1.5;
+color: #444444;
+}
+
+.adminstration{
+/* width: 1440px; */
+background-color:  #0eb4c1;
+color: #fff;
+}
+.contact-head{
+  list-style-type: none ;
+}
+
+.admin-header{
+/* width: 365px; */
+font-size: 36px;
+line-height: 1.2;
+}
+
+.connect{
+  color: #fff;
+font-size: 15px;
+letter-spacing: 2px;
+line-height: 1.2;
+text-decoration: none;
+text-transform: uppercase;
+
+}
+.site-footer{
+  background-color: #222222;
+}
+
+.footer-head{
+  list-style-type: none;
+}
+
+.footer-link{
+  line-height: 21px;
+  font-weight: 500px;
+ text-transform: uppercase;
+ text-decoration: none;
+ letter-spacing: 2px;
+ color: #fff;
+}
