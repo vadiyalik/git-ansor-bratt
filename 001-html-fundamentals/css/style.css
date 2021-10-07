@@ -1,22 +1,29 @@
 .site-header{
   background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.navigator{
+  display: flex;
+}
+
 .sitenav-link{
   line-height: 21px;
   font-weight: 500px;
  text-transform: uppercase;
  text-decoration: none;
 }
-.sitenav-head{
-  /* display: flex;
-  list-style-type: none;
-  justify-content: space-between;
-  align-items: center; */
-}
-.navigator{
-  display: flex;
 
+
+.sitenav-head{
+   display: flex;
+   list-style-type: none;
+  /* justify-content: space-between; */
+   /* align-items: center; */
 }
+
 .main-link{
 
   font-size: 15px;
@@ -31,6 +38,9 @@
 }
 
 .hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #0eb4c1;
   color: #fff;
 }
@@ -57,6 +67,13 @@ font-size: 18px;
 line-height: 1.5;
 width: 440px;
 }
+
+.service{
+  /* align-items: center; */
+}
+.service-flex{
+  display: flex;
+}
 .service-heading{
   font-size: 36px;
   line-height: 1.2;
@@ -76,11 +93,15 @@ color: #444444;
 }
 
 .adminstration{
-/* width: 1440px; */
 background-color:  #0eb4c1;
 color: #fff;
 }
+.contacts{
+  align-items: center;
+}
 .contact-head{
+  align-items: center;
+  display: flex;
   list-style-type: none ;
 }
 
@@ -104,6 +125,12 @@ text-transform: uppercase;
 }
 
 .footer-head{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-list{
+  display: flex;
   list-style-type: none;
 }
 
