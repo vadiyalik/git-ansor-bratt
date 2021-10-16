@@ -4,135 +4,137 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnsorMed</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <title>Ansormed</title>
 </head>
 <body>
+
   <!-- SITE-HEADER -->
+
   <header class="site-header">
-    <a href="index.html">
-      <img src="img/logo.svg" alt="logo" width="185" height="50">
-    </a>
 
-    <nav class="navigator">
-      <ul class="sitenav-head">
-        <li> <a class="sitenav-link" href="#">Xizmatlar</a></li>
-        <li><a class="sitenav-link" href="#">Dorilar</a></li>
-        <li><a class="sitenav-link" href="#">Asal</a></li>
-        <li><a class="sitenav-link" href="#">Kontaktlar</a></li>
-        <li><a class="sitenav-link" href="#">Blog</a></li>
-      </ul>
+    <div class="site-header-container container">
+      <a class="site-logo" href="index.html">
+        <img src="img/logo.svg" alt="logo" width="185" height="50">
+      </a>
 
-      <a class="main-link" href="#">Qabulga yozilish</a>
-    </nav>
+      <!-- SITENEV -->
+
+      <nav class="sitenav">
+        <ul class="sitenav-list">
+          <li class="sitenav-item"> <a  class="sitenav-link" href="#">Xizmatlar</a></li>
+          <li class="sitenav-item"><a  class="sitenav-link" href="#">Dorilar</a></li>
+          <li class="sitenav-item"><a  class="sitenav-link" href="#">Asal</a></li>
+          <li class="sitenav-item"><a  class="sitenav-link" href="#">Kontaktlar</a></li>
+          <li class="sitenav-item"><a  class="sitenav-link" href="#">Blog</a></li>
+        </ul>
+      </nav>
+      <a class="main-link" href="#index-cta">Qabulga yozilish</a>
+    </div>
 
   </header>
 
 
 
-  <!-- HERO -->
+  <!-- MAIN-CONTENT -->
   <main>
     <section class="hero">
-      <div class="hero-content">
-        <h2 class="hero-heading">
-          Tabiiy davolash usullari yordamida  kasalliklardan xalos bo’ling.
-        </h2>
+      <div class="hero-container container">
+        <div class="hero-content">
+          <h2 class="hero-heading">
+            Tabiiy davolash usullari yordamida  kasalliklardan xalos bo’ling.
+          </h2>
 
-        <p class="hero-text"> Hijoma, manual terapiya, zuluk va turli tabiiy giyohlar eng ko’p uchraydigan     kasalliklarni yengishda yordam beradi. Sog’ligingizni o’z ishining professionallariga ishonib topshiring.
-        </p>
+          <p class="hero-text"> Hijoma, manual terapiya, zuluk va turli tabiiy giyohlar eng ko’p uchraydigan     kasalliklarni yengishda yordam beradi. Sog’ligingizni o’z ishining professionallariga ishonib topshiring.
+          </p>
 
-        <a class="main-link" href="#">Qabulga yozilish</a>
+          <a class="main-link main-link-solid" href="#index-cta">Qabulga yozilish</a>
+        </div>
+
+        <img class="hero-img" src="img/ansorbrat.png" alt="Ansor akani rasmi" width="423" height="504">
 
       </div>
-
-      <img class="hero-img" src="img/ansorbrat.png" alt="Ansor akani rasmi" width="423" height="504">
 
     </section>
 
 
     <!-- SERVICE -->
-    <section class="service">
-      <h2 class="service-heading">Xizmatlar</h2>
-      <div>
-        <ul class="service-list">
-          <li class="service-title">
-            <div class="service-flex">
+    <section class="index-services">
 
-              <div>
-                <img src="img/hijoma.jpg" alt="hijoma rasm" width="200" height="200" srcset="img/hijoma.jpg 1x, img/hijoma@2x.jpg 2x">
-              </div>
-              <div>
-                <h3 class="service-content" >Hijoma</h3>
-                <p class="service-text">Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir).</p>
-              </div>
+      <div class="container">
+        <h2 class="index-services-heading">Xizmatlar</h2>
+        <ul class="index-services-list">
+          <li class="index-services-item index-service">
+
+            <img class="index-service-img" src="img/hijoma.jpg" alt="hijoma rasm" width="200" height="200" srcset="img/hijoma.jpg 1x, img/hijoma@2x.jpg 2x">
+
+            <div class="index-service-content">
+              <h3 class="index-service-title" >Hijoma</h3>
+              <p class="index-service-description">Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir).</p>
+            </div>
+
+          </li>
+          <li class="index-services-item index-service">
+            <img class="index-service-img" src="img/terapiya.jpg" alt="terapiya rasm" width="200" height="200" srcset="img/terapiya.jpg 1x, img/terapiya@2x.jpg 2x">
+
+
+            <div class="index-service-content">
+              <h3 class="index-service-title">Manual terapiya</h3>
+              <p class="index-service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
+            </div>
+          </li>
+          <li class="index-services-item index-service">
+            <img class="index-service-img" src="img/zuluk.jpg" alt="zuluk rasm" width="200" height="200"  >
+            <div class="index-service-content">
+
+              <h3 class="index-service-title">Zuluk bilan davolash</h3>
+              <p class="index-service-description">Girudoterapiya (lot. hirūdō — «zuluk» va qad. yun. θεραπεία — «davolash») — ma’lum kasalliklarni dorivor zuluklar (Hirudo medicinalis) yordamida davolash usuli. Fizioterapevtik muolaja, muqobil tibbiyotga oid sanaladi. Bunday zuluklar ushbu kichik sinf chuvchalchanglariga oid yagona tur hisoblanadi, qolganlari shifobaxsh ta’sir ko’rsatmaydi.</p>
 
             </div>
 
           </li>
-          <li>
 
-            <div class="service-flex">
-              <div>
-                 <img src="img/terapiya.jpg" alt="terapiya rasm" width="200" height="200" srcset="img/terapiya.jpg 1x, img/terapiya@2x.jpg 2x">
-              </div>
+          <li class="index-services-item index-service">
 
-              <div>
-                 <h3 class="service-content">Manual terapiya</h3>
-                  <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
-              </div>
+
+            <img class="index-service-img" src="img/dorivor.jpg" alt="dorivor o'simliklar rasmi" width="200" height="200">
+
+            <div class="index-service-content">
+              <h3 class="index-service-title">Tabiiy dori vositalari</h3>
+              <p class="index-service-description">Lorem ipsum dolor sit amet, consectetur adipiscing   elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
             </div>
 
-
-          </li>
-          <li>
-            <div class="service-flex">
-              <div>
-                 <img src="img/zuluk.jpg" alt="zuluk rasm" width="200" height="200" >
-              </div>
-
-              <div>
-                <h3 class="service-content">Zuluk bilan davolash</h3>
-                <p class="service-text">Girudoterapiya (lot. hirūdō — «zuluk» va qad. yun. θεραπεία — «davolash») — ma’lum kasalliklarni dorivor zuluklar (Hirudo medicinalis) yordamida davolash usuli. Fizioterapevtik muolaja, muqobil tibbiyotga oid sanaladi. Bunday zuluklar ushbu kichik sinf chuvchalchanglariga oid yagona tur hisoblanadi, qolganlari shifobaxsh ta’sir ko’rsatmaydi.</p>
-              </div>
-            </div>
-
-          </li>
-          <li>
-            <div class="service-flex">
-              <div>
-                <img src="img/dorivor.jpg" alt="dorivor o'simliklar rasmi" width="200" height="200">
-              </div>
-              <div>
-                <h3 class="service-content">Tabiiy dori vositalari</h3>
-                <p class="service-text">Lorem ipsum dolor sit amet, consectetur adipiscing   elit. Nulla ac metus placerat, pellentesque enim ac, rhoncus lectus. Maecenas et posuere lorem. Fusce sed massa sit amet elit viverra hendrerit.</p>
-              </div>
-            </div>
 
           </li>
 
         </ul>
+        <div class="index-services-actions">
+          <a class="main-link" href="#index-cta">Qabulga yozilish</a>
+        </div>
       </div>
 
-
-      <a class="main-link" href="#">Qabulga yozilish</a>
     </section>
 
 
     <!-- ADMINSTRATION -->
-    <section class="adminstration">
-      <h2 class="admin-header">
-        Qabulga ro’yxatdan o’ting
-      </h2>
-      <div class="contacts">
-        <ul class="contact-head">
-          <li>
-            <a class="connect call-number" href="#">Qo’ng’iroq qilish</a>
-          </li>
-          <li>
-            <a class="connect  tg-number" href="#">Telegramdan yozish</a>
-          </li>
-        </ul>
+    <section class="cta" id="index-cta">
+      <div class="container">
+        <h2 class="cta-heading">
+          Qabulga ro’yxatdan o’ting
+        </h2>
+
+        <div class="cta-links">
+            <a class="cta-links-item main-link main-link-outline" href="tel:+998977581897" target="_blank">Qo’ng’iroq qilish</a>
+
+            <a class="cta-links-item main-link main-link-outline" href="https://t.me/the_freshman" target="_blank">Telegramdan yozish</a>
+        </div>
       </div>
+
+
     </section>
 
   </main>
@@ -142,18 +144,23 @@
 
   <!-- FOOTER -->
   <footer class="site-footer">
-    <div class="footer-head">
+    <div class="site-footer-container container">
       <a href="index.html">
         <img src="img/logo(2).svg" alt="logo" width="185"
         height="50">
       </a>
-      <ul class="footer-list">
-        <li><a class="footer-link" href="#">Xizmatlar</a></li>
-        <li><a class="footer-link" href="#">Dorilar</a></li>
-        <li><a class="footer-link" href="#">Asal</a></li>
-        <li><a class="footer-link" href="#">Kontaktlar</a></li>
-        <li><a class="footer-link" href="#">Blog</a></li>
-      </ul>
+
+      <!-- SITENAV -->
+      <nav class="sitenav sitenav-site-footer">
+        <ul class="sitenav-list">
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Xizmatlar</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Dorilar</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Asal</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Kontaktlar</a></li>
+          <li class="sitenav-item"><a class="sitenav-link" href="#">Blog</a></li>
+        </ul>
+      </nav>
+
     </div>
   </footer>
 

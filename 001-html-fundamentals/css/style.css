@@ -1,144 +1,290 @@
-.site-header{
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+* {
+  box-sizing: border-box;
 }
 
-.navigator{
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: "Open Sans", "Arial", sans-serif ;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #444444;
+}
+
+*:focus{
+  outline: 2px dotted #de2e54;
+  outline-offset: 2px;
+}
+
+/* CONTAINER */
+.container{
+  width: 100%;
+  max-width: 1160px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* SITE-HEADER */
+
+.site-header{
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.site-header-container{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* SITENAV */
+.sitenav{
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.sitenav-list{
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sitenav-item:not(:last-child) {
+margin-right: 32px;
 }
 
 .sitenav-link{
-  line-height: 21px;
-  font-weight: 500px;
- text-transform: uppercase;
- text-decoration: none;
+  display: block;
+  color: #222;
+  text-decoration: none;
+
 }
 
-
-.sitenav-head{
-   display: flex;
-   list-style-type: none;
-  /* justify-content: space-between; */
-   /* align-items: center; */
+.sitenav-link:hover{
+  color: #de2e54;
 }
+
+.sitenav-link:active{
+  opacity: 0.6;
+}
+
+.sitenav-site-footer .sitenav-link{
+  color: #fff;
+}
+
+.sitenav-site-footer .sitenav-link:hover{
+
+  color: #de2e54;;
+}
+
+.sitenav-site-footer .sitenav-link:active{
+  color: #fff;
+  opacity: 0.6;
+}
+
+/* MAIN-LINK */
 
 .main-link{
-
+  display: inline-block;
+  padding: 10px 22px;
+  border: 2px solid #de2e54;
+  border-radius: 8px;
   font-size: 15px;
-  font-weight: 700;
-  line-height: 23px;
+  font-family: "Open Sans Condensed", "Arial", sans-serif;
   letter-spacing: 2px;
-  text-transform: uppercase;
-  text-decoration: none;
   background-color: #de2e54;
   color: #fff;
-  width: 141px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
+.main-link:hover{
+ border-color: #de2e54;
+  background-color: #fff;
+  color: #de2e54;
+
+}
+
+.main-link:active{
+  background-color: #de2e54;
+  color: #fff;
+  opacity: 0.6;
+}
+
+.main-link-solid:hover{
+  border-color: transparent;
+ background-color: rgba(222, 46, 84, 0.8);
+ color: #fff;
+}
+
+.main-link-solid:active{
+  background-color: rgba(222, 46, 84, 0.6);
+  opacity: 1;
+}
+
+.main-link-outline{
+  background-color: transparent;
+  color: #fff;
+}
+
+.main-link-outline:hover{
+  border-color: transparent;
+  background-color: #de2e54;
+  color: #fff;
+}
+
+
+/* HERO */
+
 .hero{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  border-color: #fff;
   background-color: #0eb4c1;
   color: #fff;
 }
 
-.hero-content{
-  width: 500px;
-  color: #fff;
+ .hero-container{
+  display: flex;
+  justify-content: space-between;
 }
 
-.hero-img{
-  width: 423px;
-  height: 504px;
+.hero-content{
+  width: 500px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .hero-heading{
-  width: 500px;
-  line-height: 43px;
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: "Open Sans Condensed", "Open Sans", "Arial", sans-serif;
   font-size: 36px;
   line-height: 1.2;
 }
 
 .hero-text{
-font-size: 18px;
-line-height: 1.5;
-width: 440px;
+  width: 440px;
+  margin-top: 0;
+  margin-bottom: 36px;
 }
 
-.service{
-  /* align-items: center; */
+.hero-img{
+  align-self: flex-end;
 }
-.service-flex{
-  display: flex;
+
+/* IDEX-SERVICES */
+
+.index-services{
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
-.service-heading{
+
+.index-services-heading{
+  margin-top: 0;
   font-size: 36px;
   line-height: 1.2;
-  width: 133px;
+  text-align: center;
+  font-family: "Open Sans Condensed", "Open Sans", "Arial", sans-serif;
+  color: #000;
 }
 
-.service-content{
-font-size: 24px;
-line-height: 1.2;
+.index-services-list{
+  width: 864px;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  list-style: none;
+
 }
 
-.service-text{
-width: 600px;
-font-size: 16px;
-line-height: 1.5;
-color: #444444;
+.index-services-item:not(:last-child){
+ margin-bottom: 80px;
 }
 
-.adminstration{
-background-color:  #0eb4c1;
-color: #fff;
-}
-.contacts{
-  align-items: center;
-}
-.contact-head{
-  align-items: center;
+.index-service{
   display: flex;
-  list-style-type: none ;
+  align-items: center;
 }
 
-.admin-header{
-/* width: 365px; */
-font-size: 36px;
-line-height: 1.2;
+.index-service-img{
+  width: 200px;
+  height: 200px;
+  margin-right: 60px;
+  border-radius: 24px;
+  object-fit: cover;
+  box-shadow: 0px 12px 24px -8px  rgba(0, 107, 116, 0.3);
 }
 
-.connect{
+.index-service-content{
+  width: 600px;
+}
+
+.index-service-title{
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: #222;
+}
+
+.index-service-description{
+  margin: 0;
+}
+
+.index-services-actions{
+  display: flex;
+  justify-content: center;
+}
+
+/* ADMINSTRATION */
+
+.cta{
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: #0eb4c1;
   color: #fff;
-font-size: 15px;
-letter-spacing: 2px;
-line-height: 1.2;
-text-decoration: none;
-text-transform: uppercase;
+}
+
+.cta-heading{
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 36px;
+  line-height: 1.2;
+  font-family: "Open Sans Condensed", "Open Sans", "Arial", sans-serif;
+  text-align: center;
+}
+
+.cta-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-links-item:not(:last-child){
+  margin-right: 40px;
 
 }
+
+
+/* SITE-FOOTER */
 .site-footer{
-  background-color: #222222;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #222;
+  color:#fff;
 }
 
-.footer-head{
+.site-footer-container{
   display: flex;
+  align-items: center;
   justify-content: space-between;
-}
-
-.footer-list{
-  display: flex;
-  list-style-type: none;
-}
-
-.footer-link{
-  line-height: 21px;
-  font-weight: 500px;
- text-transform: uppercase;
- text-decoration: none;
- letter-spacing: 2px;
- color: #fff;
 }
