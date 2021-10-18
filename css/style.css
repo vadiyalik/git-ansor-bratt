@@ -133,6 +133,7 @@ margin-right: 32px;
 }
 
 .main-link-outline{
+  border-color: #fff;
   background-color: transparent;
   color: #fff;
 }
@@ -179,6 +180,8 @@ margin-right: 32px;
 
 .hero-img{
   align-self: flex-end;
+  margin: 0;
+  padding: 0;
 }
 
 /* IDEX-SERVICES */
@@ -238,6 +241,10 @@ margin-right: 32px;
 
 .index-service-description{
   margin: 0;
+}
+
+.index-service-leech{
+  width: 590px;
 }
 
 .index-services-actions{
